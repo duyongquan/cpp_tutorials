@@ -1,4 +1,3 @@
-
 add_subdirectory(algorithms)
 add_subdirectory(application_libraries)
 add_subdirectory(communication)
@@ -8,6 +7,7 @@ add_subdirectory(design_patterns)
 add_subdirectory(error_handling)
 add_subdirectory(functional)
 add_subdirectory(generic_programming)
+add_subdirectory(json)
 add_subdirectory(language_extensions)
 add_subdirectory(memory_management)
 add_subdirectory(number_handling)
