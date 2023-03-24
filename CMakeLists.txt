@@ -1,7 +1,9 @@
 cmake_minimum_required(VERSION 3.2)
 project(CppTutorials)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++2a")
 
 set(PROTOOLS_MAJOR_VERSION 0)
 set(PROTOOLS_MINOR_VERSION 0)
@@ -19,5 +21,8 @@ include("${PROJECT_SOURCE_DIR}/cmake/functions.cmake")
 project_initialize()
 project_enable_testing()
 
-### 
-add_subdirectory(src/boost)
+### boost ### 
+# add_subdirectory(src/boost)
+
+### cpp20 ### 
+add_subdirectory(src/cpp20)
