@@ -22,11 +22,11 @@ struct Foo {};
 
 void test()
 {
-    max(Foo{}, Foo{});
+    // max(Foo{}, Foo{});
 }
 
-}  // 
-}  // namespace tutorial
+}  // namespace cpp20
+}  // namespace tutorials
 
 int main(int argc, char** argv)
 {

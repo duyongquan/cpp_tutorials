@@ -21,6 +21,8 @@ include("${PROJECT_SOURCE_DIR}/cmake/functions.cmake")
 project_initialize()
 project_enable_testing()
 
+find_package(Eigen3 REQUIRED)
+
 ### boost ### 
 # add_subdirectory(src/boost)
 
