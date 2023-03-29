@@ -75,7 +75,6 @@ void test()
     std::cout << "A: " << ab.at<A>() << std::endl;
     std::cout << "B: " << ab.at<B>() << std::endl;
 
-
     StateBA ba{{1.0, 2.0}};
     std::cout << "A: " << ba.at<A>() << std::endl;
     std::cout << "B: " << ba.at<B>() << std::endl;

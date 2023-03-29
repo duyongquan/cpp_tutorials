@@ -22,9 +22,15 @@ project_initialize()
 project_enable_testing()
 
 find_package(Eigen3 REQUIRED)
+find_package(benchmark REQUIRED)
+find_package(Threads REQUIRED)
+find_library(GPERFTOOLS_LIBRARIES NAMES profiler)
 
 ### boost ### 
 # add_subdirectory(src/boost)
 
 ### cpp20 ### 
 add_subdirectory(src/cpp20)
+
+### utils ### 
+add_subdirectory(src/utils)
